@@ -1,10 +1,11 @@
 {
   "name": "typescript-playground",
   "version": "1.0.0",
-  "description": "TypeScript 学习笔记 ==== ### 未理解透彻",
+  "description": "TypeScript 学习笔记",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clear": "rm -rf *.js */*.js"
   },
   "repository": {
     "type": "git",

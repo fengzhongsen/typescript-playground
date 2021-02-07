@@ -13,3 +13,14 @@ declare module "url" {
     export let sep: string;
   }
 }
+
+// 模块声明通配符
+declare module "*!text" {
+  const content: string;
+  export default content;
+}
+
+declare module "json!*" {
+  const value: any;
+  export default value;
+}
